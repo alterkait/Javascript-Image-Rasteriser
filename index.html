@@ -5,16 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="app.css"/>
     <script src="script.js"></script>
 </head>
 <body>
-    <<input type="file" accept=".jpg,.gif,.png" class="file-input">
+    <input type="file" accept=".jpg,.gif,.png" class="file-input">
 
-    <h1>Image Rasteriser</h1>
+    <h1 class="header">Image Rasteriser</h1>
 
-    <p>Click on any checkmark, insert an image file, and this algorithm will rasterize your image using the various colours of the chackmarks available! </p>
+    <p class="description">Click on any checkmark, insert an image file, and this algorithm will rasterize your image using the various colours of the chackmarks available! </p>
 
-    <p>
+    <p id="hint" class="hint" hidden>Your Browser doesn't support this type of File </p>
+
+    <div class="content" id="content"></div>
+
+    <footer>Created by Abdulrahman AlTerkait</footer>
     
 </body>
 </html>
